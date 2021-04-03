@@ -1,0 +1,8 @@
+// select linear model
+
+model = sklearn.linear_model.LinearRegression()
+
+
+//Train model
+
+model.fit (X, y)
