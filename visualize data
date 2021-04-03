@@ -1,0 +1,4 @@
+//visualize data
+
+country_stats.plot(kind= 'scatter', x= "GDP per capita", y = 'Life satisfaction')
+plt.show()
