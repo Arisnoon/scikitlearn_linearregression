@@ -1,0 +1,5 @@
+// prepare data
+
+country_stats = prepare_country_stats(oecd_bli , gdp_per_capita)
+x = np.c_[country_stats["GDP per capita"]]
+y = np.c_[country_stats["Life satisfaction"]]
